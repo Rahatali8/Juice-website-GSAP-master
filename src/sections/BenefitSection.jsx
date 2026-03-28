@@ -48,33 +48,33 @@ const BenefitSection = () => {
         <div className="col-center">
           <p>
             Unlock the Advantages: <br />
-            Explore the Key Benefits of Choosing SPYLT
+            Explore the Key Benefits of Our Accessories
           </p>
 
           <div className="mt-20 col-center">
             <ClipPathTitle
-              title={"Shelf stable"}
+              title={"Stylish Designs"}
               color={"#faeade"}
               bg={"#c88e64"}
               className={"first-title"}
               borderColor={"#222123"}
             />
             <ClipPathTitle
-              title={"Protein + Caffeine"}
+              title={"Fast Shipping"}
               color={"#222123"}
               bg={"#faeade"}
               className={"second-title"}
               borderColor={"#222123"}
             />
             <ClipPathTitle
-              title={"Infinitely recyclable"}
+              title={"Eco-friendly Materials"}
               color={"#faeade"}
               bg={"#7F3B2D"}
               className={"third-title"}
               borderColor={"#222123"}
             />
             <ClipPathTitle
-              title={"Lactose free"}
+              title={"1-Year Warranty"}
               color={"#2E2D2F"}
               bg={"#FED775"}
               className={"fourth-title"}

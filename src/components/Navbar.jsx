@@ -6,8 +6,8 @@ const Navbar = () => {
             <img src="/images/nav-logo.svg" alt="nav-logo" className="md:w-24 w-20" />
             <ul className="ml-8 flex space-x-6 text-white">
                 <li><a href="#hero" className="hover:underline">Home</a></li>
-                <li><a href="#flavors" className="hover:underline">Flavors</a></li>
-                <li><a href="#nutrition" className="hover:underline">Nutrition</a></li>
+                <li><a href="#products" className="hover:underline">Products</a></li>
+                <li><a href="#features" className="hover:underline">Features</a></li>
                 <li><a href="#benefits" className="hover:underline">Benefits</a></li>
             </ul>
         </nav>)

@@ -1,42 +1,43 @@
 const flavorlists = [
   {
-    name: "Chocolate Milk",
-    color: "brown",
+    name: "Phone Case",
+    color: "black",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Stawberry Milk",
-    color: "red",
-    rotation: "md:rotate-[8deg] rotate-0",
-  },
-  {
-    name: "Cookies & Cream",
+    name: "Wireless Charger",
     color: "blue",
-    rotation: "md:rotate-[-8deg] rotate-0",
-  },
-  {
-    name: "Peanut Butter Chocolate",
-    color: "orange",
     rotation: "md:rotate-[8deg] rotate-0",
   },
   {
-    name: "Vanilla Milkshake",
+    name: "Screen Protector",
     color: "white",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Max Chocolate Milk",
-    color: "black",
+    name: "Bluetooth Earbuds",
+    color: "red",
+    rotation: "md:rotate-[8deg] rotate-0",
+  },
+  {
+    name: "Power Bank",
+    color: "yellow",
+    rotation: "md:rotate-[-8deg] rotate-0",
+  },
+  {
+    name: "Car Mount",
+    color: "grey",
     rotation: "md:rotate-[8deg] rotate-0",
   },
 ];
 
+// reuse nutrientLists variable for feature list
 const nutrientLists = [
-  { label: "Potassium", amount: "245mg" },
-  { label: "Calcium", amount: "500mg" },
-  { label: "Vitamin A", amount: "176mcg" },
-  { label: "Vitamin D", amount: "5mcg" },
-  { label: "Iron", amount: "1mg" },
+  { label: "Durable Build", amount: "High" },
+  { label: "Fast Charging", amount: "Up to 50W" },
+  { label: "Wide Compatibility", amount: "All Devices" },
+  { label: "Eco-friendly", amount: "Recycled" },
+  { label: "1‑Year Warranty", amount: "Included" },
 ];
 
 const cards = [

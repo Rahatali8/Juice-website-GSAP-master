@@ -62,7 +62,7 @@ const HeroSection = () => {
   });
 
   return (
-    <section className="bg-main-bg">
+    <section id="hero" className="bg-main-bg">
       <div className="hero-container">
         {isTablet ? (
           <>
@@ -88,7 +88,7 @@ const HeroSection = () => {
         )}
         <div className="hero-content opacity-0">
           <div className="overflow-hidden">
-            <h1 className="hero-title">Freaking Delicious</h1>
+            <h1 className="hero-title">Premium Mobile Accessories</h1>
           </div>
           <div
             style={{
@@ -97,7 +97,7 @@ const HeroSection = () => {
             className="hero-text-scroll"
           >
             <div className="hero-subtitle">
-              <h1>Protein + Caffine </h1>
+              <h1>Style + Performance</h1>
             </div>
           </div>
 
@@ -107,7 +107,7 @@ const HeroSection = () => {
           </h2>
 
           <div className="hero-button">
-            <p>Chug a SPYLT</p>
+            <p>Shop Now</p>
           </div>
         </div>
       </div>

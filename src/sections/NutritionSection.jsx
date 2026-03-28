@@ -67,7 +67,7 @@ const NutritionSection = () => {
   });
 
   return (
-    <section className="nutrition-section">
+    <section id="features" className="nutrition-section">
       
       {/* ✅ sirf yahan object-cover hata kar contain lagaya */}
       <img
@@ -87,7 +87,7 @@ const NutritionSection = () => {
         <div className="relative inline-block md:translate-y-20">
           <div className="general-title relative flex flex-col justify-center items-center gap-24">
             <div className="overflow-hidden place-self-start">
-              <h1 className="nutrition-title">It still does</h1>
+              <h1 className="nutrition-title">Built to Perform</h1>
             </div>
 
             <div
@@ -97,7 +97,7 @@ const NutritionSection = () => {
               className="nutrition-text-scroll place-self-start"
             >
               <div className="bg-yellow-brown pb-5 md:pt-0 pt-3 md:px-5 px-3">
-                <h2 className="text-milk-yellow">Body Good</h2>
+                <h2 className="text-milk-yellow">Feature Packed</h2>
               </div>
             </div>
           </div>
@@ -106,8 +106,7 @@ const NutritionSection = () => {
         <div className="flex md:justify-center items-center translate-y-5">
           <div className="md:max-w-xs max-w-md">
             <p className="text-lg md:text-right text-balance font-paragraph">
-              Milk contains a wide array of nutrients, including vitamins,
-              minerals, and protein, and this is lactose free
+              Our products deliver durability, efficiency and style — engineered for everyday use
             </p>
           </div>
         </div>
